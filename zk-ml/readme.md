@@ -1,8 +1,10 @@
 # ZK statement for machine learning
 
+# Rust version
+We test the code using `rustc 1.43.0`.
 
-# HowTo
-* Under directory `TinyQuantCNN/zk-ml/`, run `mkdir test-data` and `cargo run --bin gen_data` to generate the mock inputs for baseline and microbenchmark purposes only. For optimization level 3, we load real quantization parameters generated from `TinyQauntCNN/numpyInferenceEngine/XXNet/`. For example, cd to `TinyQuantCNN/numpyInferenceEngine/LeNet_CIFAR10` and run `python3.8 LeNet_end_to_end_quant.py --model LeNet_Small`. The generated quantized parameters are located at `TinyQuantCNN/numpyInferenceEngine/LeNet_CIFAR10/LeNet_CIFAR_pretrained/`. For easily reproducing the results, we have saved a copy of parameters for all combinations of model and dataset in director `TinyQuantCNN/zk-ml/pretrained_model/`
+# Prepare Data
+* Under directory `ZEN/zk-ml/`, run `mkdir test-data` and `cargo run --bin gen_data` to generate the mock inputs for baseline and microbenchmark purposes only. For optimization level 3, we load real quantization parameters generated from `TinyQauntCNN/numpyInferenceEngine/XXNet/`. For example, cd to `ZEN/numpyInferenceEngine/LeNet_CIFAR10` and run `python3.8 LeNet_end_to_end_quant.py --model LeNet_Small`. The generated quantized parameters are located at `ZEN/numpyInferenceEngine/LeNet_CIFAR10/LeNet_CIFAR_pretrained/`. For easily reproducing the results, we have saved a copy of parameters for all combinations of model and dataset in director `ZEN/zk-ml/pretrained_model/`
 
 
 # Commitments
@@ -14,12 +16,12 @@ REMINDER: before benchmarking, please use the corresponding `num_window` paramet
 * pub const PERDERSON_WINDOW_SIZE: usize = 100; // this is for 46X56X1 FACE u8 input
 
 # Microbenchmarks
-
+Remeber to follow `Prepare Data` section to generate random input for microbenchmarks first. Then under directory `ZEN/zk-ml/`:
 ## Conv and FC layers different levels of optimization
 * `cargo run --bin microbench_conv_layered_optimization_by_kernel_size --release 2>/dev/null`
 * `cargo run --bin microbench_fc_layered_optimization --release 2>/dev/null`
 
-## SIMD under different batch size
+## SIMD (stranded encoding) under different batch size
 * `cargo run --bin microbench_SIMD_by_batch_size --release 2>/dev/null`
 
 ## ShallowNet on MNIST dataset different levels of optimization
@@ -37,6 +39,7 @@ REMINDER: before benchmarking, please use the corresponding `num_window` paramet
 
 
 # Optmization level 3 for all combinations of models and datasets
+Pretrained model parameters and input are included already. Under directory `ZEN/zk-ml/`
 * `cargo run --bin shallownet_optimized_pedersen_mnist --release 2>/dev/null`
 * `cargo run --bin lenet_small_optimized_pedersen_cifar --release 2>/dev/null`
 * `cargo run --bin lenet_medium_optimized_pedersen_cifar --release 2>/dev/null`
@@ -46,15 +49,12 @@ REMINDER: before benchmarking, please use the corresponding `num_window` paramet
 
 
 # Naive/baseline for all combinations of models and datasets(only calculate the number of constraints)
+Under directory `ZEN/zk-ml/`
 * `cargo run --bin shallownet_naive_mnist --release 2>/dev/null`
 * `cargo run --bin lenet_small_naive_pedersen_cifar --release 2>/dev/null`
 * `cargo run --bin lenet_medium_naive_pedersen_cifar --release 2>/dev/null`
 * `cargo run --bin lenet_small_naive_pedersen_face --release 2>/dev/null`
 * `cargo run --bin lenet_medium_naive_pedersen_face --release 2>/dev/null`
 * `cargo run --bin lenet_large_naive_pedersen_face --release 2>/dev/null`
-
-
-
-
 
 
