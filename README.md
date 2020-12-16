@@ -58,3 +58,4 @@ Under directory `ZEN/zk-ml/`
 * `cargo run --bin lenet_large_naive_pedersen_face --release 2>/dev/null`
 
 
+We are still actively optimizing the code quality to make it more understandable and easy to use. Please leave an issue if you meet any problem during running the codebase.
