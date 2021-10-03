@@ -1,0 +1,20 @@
+LeNet large baseline on face dataset
+commit time 14.834793498s
+Number of constraints for x commitment 111794
+Number of constraints for z commitment 40786
+Number of constraints for conv1 layer commitment 84466 accumulated constraints 237046
+Number of constraints for conv2 layer commitment 8274290 accumulated constraints 8511336
+Number of constraints for conv3 layer commitment 42370576 accumulated constraints 50881912
+Number of constraints for fc1 layer commitment 211813214 accumulated constraints 262695126
+Number of constraints for fc2 layer commitment 445384 accumulated constraints 263140510
+Number of constraints for Conv1 268509696 accumulated constraints 531650206
+Number of constraints for Relu1 488998 accumulated constraints 532139204
+Number of constraints for AvgPool1 66253824 accumulated constraints 598393028
+Number of constraints for Conv2 167360512 accumulated constraints 765753540
+Number of constraints for Relu2 167438 accumulated constraints 765920978
+Number of constraints for AvgPool2 21356544 accumulated constraints 787277522
+Number of constraints for Conv3 80773120 accumulated constraints 868050642
+Number of constraints for Relu3 71620 accumulated constraints 868122262
+Number of constraints FC1 5728256 accumulated constraints 873850518
+Number of constraints for Relu4 902 accumulated constraints 873851420
+Number of constraints for FC2 86080 accumulated constraints 873937500

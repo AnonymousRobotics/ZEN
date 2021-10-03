@@ -1,0 +1,910 @@
+LeNet medium baseline on cifar dataset
+Start:   PedersenCOMM::Setup: 256 100-bit windows; {0,1}^{25600} -> C
+End:     PedersenCOMM::Setup: 256 100-bit windows; {0,1}^{25600} -> C ..............33.342ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................4.342ms
+··Start:   Randomize
+··End:     Randomize ...............................................................61.100µs
+End:     PedersenCOMM::Commit ......................................................5.627ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................225.1µs
+··Start:   Randomize
+··End:     Randomize ...............................................................60.201µs
+End:     PedersenCOMM::Commit ......................................................1.234ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................5.230ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.601µs
+End:     PedersenCOMM::Commit ......................................................6.189ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.926ms
+··Start:   Randomize
+··End:     Randomize ...............................................................70.0µs
+End:     PedersenCOMM::Commit ......................................................7.957ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.948ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.601µs
+End:     PedersenCOMM::Commit ......................................................7.968ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.855ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.300µs
+End:     PedersenCOMM::Commit ......................................................7.867ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.850ms
+··Start:   Randomize
+··End:     Randomize ...............................................................70.0µs
+End:     PedersenCOMM::Commit ......................................................7.873ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.936ms
+··Start:   Randomize
+··End:     Randomize ...............................................................70.1µs
+End:     PedersenCOMM::Commit ......................................................7.964ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.904ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.600µs
+End:     PedersenCOMM::Commit ......................................................7.921ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.819ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.800µs
+End:     PedersenCOMM::Commit ......................................................7.832ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.802ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.501µs
+End:     PedersenCOMM::Commit ......................................................7.824ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.897ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.300µs
+End:     PedersenCOMM::Commit ......................................................7.909ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.872ms
+··Start:   Randomize
+··End:     Randomize ...............................................................70.200µs
+End:     PedersenCOMM::Commit ......................................................7.884ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.914ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.601µs
+End:     PedersenCOMM::Commit ......................................................7.925ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.790ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.400µs
+End:     PedersenCOMM::Commit ......................................................7.800ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.892ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.401µs
+End:     PedersenCOMM::Commit ......................................................7.905ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.865ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.801µs
+End:     PedersenCOMM::Commit ......................................................7.877ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.842ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.301µs
+End:     PedersenCOMM::Commit ......................................................7.850ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.855ms
+··Start:   Randomize
+··End:     Randomize ...............................................................69.800µs
+End:     PedersenCOMM::Commit ......................................................7.866ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................206.201µs
+··Start:   Randomize
+··End:     Randomize ...............................................................69.100µs
+End:     PedersenCOMM::Commit ......................................................1.209ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.906ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.601µs
+End:     PedersenCOMM::Commit ......................................................7.338ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.858ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.301µs
+End:     PedersenCOMM::Commit ......................................................7.981ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.839ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.600µs
+End:     PedersenCOMM::Commit ......................................................7.968ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.865ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.900µs
+End:     PedersenCOMM::Commit ......................................................7.991ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.825ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.0µs
+End:     PedersenCOMM::Commit ......................................................7.945ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.809ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.500µs
+End:     PedersenCOMM::Commit ......................................................7.936ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.877ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.200µs
+End:     PedersenCOMM::Commit ......................................................8.5ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.913ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.801µs
+End:     PedersenCOMM::Commit ......................................................8.37ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.872ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.900µs
+End:     PedersenCOMM::Commit ......................................................7.994ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.841ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.300µs
+End:     PedersenCOMM::Commit ......................................................7.967ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.867ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.0µs
+End:     PedersenCOMM::Commit ......................................................7.992ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.890ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.500µs
+End:     PedersenCOMM::Commit ......................................................8.15ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.875ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.700µs
+End:     PedersenCOMM::Commit ......................................................7.997ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.845ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.301µs
+End:     PedersenCOMM::Commit ......................................................7.974ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.919ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.300µs
+End:     PedersenCOMM::Commit ......................................................8.43ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.857ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.701µs
+End:     PedersenCOMM::Commit ......................................................7.986ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.883ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.101µs
+End:     PedersenCOMM::Commit ......................................................8.6ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.855ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.100µs
+End:     PedersenCOMM::Commit ......................................................7.977ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.842ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.900µs
+End:     PedersenCOMM::Commit ......................................................7.968ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.897ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.800µs
+End:     PedersenCOMM::Commit ......................................................8.24ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.883ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.100µs
+End:     PedersenCOMM::Commit ......................................................8.5ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.900ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.800µs
+End:     PedersenCOMM::Commit ......................................................8.26ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.873ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.900µs
+End:     PedersenCOMM::Commit ......................................................7.996ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.897ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.0µs
+End:     PedersenCOMM::Commit ......................................................8.27ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.845ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.201µs
+End:     PedersenCOMM::Commit ......................................................7.976ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.864ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.501µs
+End:     PedersenCOMM::Commit ......................................................7.986ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.892ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.501µs
+End:     PedersenCOMM::Commit ......................................................8.17ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.862ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.600µs
+End:     PedersenCOMM::Commit ......................................................7.986ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.834ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.100µs
+End:     PedersenCOMM::Commit ......................................................7.958ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.865ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.501µs
+End:     PedersenCOMM::Commit ......................................................7.990ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.890ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.701µs
+End:     PedersenCOMM::Commit ......................................................8.27ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.893ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.800µs
+End:     PedersenCOMM::Commit ......................................................8.30ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.827ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.901µs
+End:     PedersenCOMM::Commit ......................................................7.961ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.859ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.800µs
+End:     PedersenCOMM::Commit ......................................................7.998ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.897ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.501µs
+End:     PedersenCOMM::Commit ......................................................8.31ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.803ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.0µs
+End:     PedersenCOMM::Commit ......................................................7.940ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.807ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.301µs
+End:     PedersenCOMM::Commit ......................................................7.940ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.770ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.0µs
+End:     PedersenCOMM::Commit ......................................................7.902ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.869ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.201µs
+End:     PedersenCOMM::Commit ......................................................8.6ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.865ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.601µs
+End:     PedersenCOMM::Commit ......................................................8.1ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.895ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.801µs
+End:     PedersenCOMM::Commit ......................................................8.33ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.861ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.301µs
+End:     PedersenCOMM::Commit ......................................................7.988ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.877ms
+··Start:   Randomize
+··End:     Randomize ...............................................................75.101µs
+End:     PedersenCOMM::Commit ......................................................8.9ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.803ms
+··Start:   Randomize
+··End:     Randomize ...............................................................73.0µs
+End:     PedersenCOMM::Commit ......................................................7.929ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.904ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.800µs
+End:     PedersenCOMM::Commit ......................................................8.24ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.868ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.0µs
+End:     PedersenCOMM::Commit ......................................................7.985ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.905ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.500µs
+End:     PedersenCOMM::Commit ......................................................8.29ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.907ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.700µs
+End:     PedersenCOMM::Commit ......................................................8.33ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.846ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.301µs
+End:     PedersenCOMM::Commit ......................................................7.970ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................7.382ms
+··Start:   Randomize
+··End:     Randomize ...............................................................66.601µs
+End:     PedersenCOMM::Commit ......................................................8.515ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.877ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.500µs
+End:     PedersenCOMM::Commit ......................................................8.76ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.832ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.201µs
+End:     PedersenCOMM::Commit ......................................................7.953ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.852ms
+··Start:   Randomize
+··End:     Randomize ...............................................................63.900µs
+End:     PedersenCOMM::Commit ......................................................7.964ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.901ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.300µs
+End:     PedersenCOMM::Commit ......................................................8.12ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.868ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.701µs
+End:     PedersenCOMM::Commit ......................................................7.968ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.909ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.701µs
+End:     PedersenCOMM::Commit ......................................................8.10ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.833ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.100µs
+End:     PedersenCOMM::Commit ......................................................7.932ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.888ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.0µs
+End:     PedersenCOMM::Commit ......................................................7.987ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.865ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.201µs
+End:     PedersenCOMM::Commit ......................................................7.965ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.839ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.700µs
+End:     PedersenCOMM::Commit ......................................................7.938ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.942ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.100µs
+End:     PedersenCOMM::Commit ......................................................8.37ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.810ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.201µs
+End:     PedersenCOMM::Commit ......................................................7.909ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.889ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.401µs
+End:     PedersenCOMM::Commit ......................................................7.991ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.843ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.500µs
+End:     PedersenCOMM::Commit ......................................................7.938ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.880ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.0µs
+End:     PedersenCOMM::Commit ......................................................7.981ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.852ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.301µs
+End:     PedersenCOMM::Commit ......................................................7.954ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.921ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.701µs
+End:     PedersenCOMM::Commit ......................................................8.20ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.854ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.700µs
+End:     PedersenCOMM::Commit ......................................................7.955ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................9.663ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.601µs
+End:     PedersenCOMM::Commit ......................................................10.767ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.957ms
+··Start:   Randomize
+··End:     Randomize ...............................................................95.501µs
+End:     PedersenCOMM::Commit ......................................................8.196ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................8.651ms
+··Start:   Randomize
+··End:     Randomize ...............................................................80.800µs
+End:     PedersenCOMM::Commit ......................................................9.984ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................8.274ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.600µs
+End:     PedersenCOMM::Commit ......................................................9.549ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.890ms
+··Start:   Randomize
+··End:     Randomize ...............................................................68.1µs
+End:     PedersenCOMM::Commit ......................................................7.993ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.947ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.400µs
+End:     PedersenCOMM::Commit ......................................................8.46ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.950ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.800µs
+End:     PedersenCOMM::Commit ......................................................8.50ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.918ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.700µs
+End:     PedersenCOMM::Commit ......................................................8.19ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.870ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.401µs
+End:     PedersenCOMM::Commit ......................................................7.969ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.842ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.700µs
+End:     PedersenCOMM::Commit ......................................................7.943ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.872ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.900µs
+End:     PedersenCOMM::Commit ......................................................7.970ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.889ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.600µs
+End:     PedersenCOMM::Commit ......................................................7.990ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.922ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.800µs
+End:     PedersenCOMM::Commit ......................................................8.29ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.391ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.800µs
+End:     PedersenCOMM::Commit ......................................................7.491ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.910ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.900µs
+End:     PedersenCOMM::Commit ......................................................8.169ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.847ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.701µs
+End:     PedersenCOMM::Commit ......................................................8.76ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.821ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.301µs
+End:     PedersenCOMM::Commit ......................................................8.43ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.891ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.0µs
+End:     PedersenCOMM::Commit ......................................................8.114ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.809ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.201µs
+End:     PedersenCOMM::Commit ......................................................8.32ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.934ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.900µs
+End:     PedersenCOMM::Commit ......................................................8.164ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.822ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.1µs
+End:     PedersenCOMM::Commit ......................................................8.60ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.793ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.401µs
+End:     PedersenCOMM::Commit ......................................................8.27ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.877ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.200µs
+End:     PedersenCOMM::Commit ......................................................8.108ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.826ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.401µs
+End:     PedersenCOMM::Commit ......................................................8.58ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.877ms
+··Start:   Randomize
+··End:     Randomize ...............................................................74.400µs
+End:     PedersenCOMM::Commit ......................................................8.112ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.832ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.900µs
+End:     PedersenCOMM::Commit ......................................................8.52ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.862ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.801µs
+End:     PedersenCOMM::Commit ......................................................8.79ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.925ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.801µs
+End:     PedersenCOMM::Commit ......................................................8.147ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.876ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.100µs
+End:     PedersenCOMM::Commit ......................................................8.96ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.917ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.101µs
+End:     PedersenCOMM::Commit ......................................................8.136ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.860ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.500µs
+End:     PedersenCOMM::Commit ......................................................8.79ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.860ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.301µs
+End:     PedersenCOMM::Commit ......................................................8.80ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.839ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.100µs
+End:     PedersenCOMM::Commit ......................................................8.55ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.900ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.501µs
+End:     PedersenCOMM::Commit ......................................................8.125ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.884ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.800µs
+End:     PedersenCOMM::Commit ......................................................8.107ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.881ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.601µs
+End:     PedersenCOMM::Commit ......................................................8.104ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.861ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.0µs
+End:     PedersenCOMM::Commit ......................................................8.85ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.847ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.500µs
+End:     PedersenCOMM::Commit ......................................................8.67ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.893ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.200µs
+End:     PedersenCOMM::Commit ......................................................8.120ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.860ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.900µs
+End:     PedersenCOMM::Commit ......................................................8.95ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.893ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.400µs
+End:     PedersenCOMM::Commit ......................................................8.129ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.870ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.401µs
+End:     PedersenCOMM::Commit ......................................................8.106ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.917ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.300µs
+End:     PedersenCOMM::Commit ......................................................8.148ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.918ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.500µs
+End:     PedersenCOMM::Commit ......................................................8.149ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.870ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.301µs
+End:     PedersenCOMM::Commit ......................................................8.88ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.892ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.800µs
+End:     PedersenCOMM::Commit ......................................................8.116ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.864ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.301µs
+End:     PedersenCOMM::Commit ......................................................8.82ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.865ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.900µs
+End:     PedersenCOMM::Commit ......................................................8.83ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.832ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.800µs
+End:     PedersenCOMM::Commit ......................................................8.53ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.830ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.501µs
+End:     PedersenCOMM::Commit ......................................................8.56ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.859ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.100µs
+End:     PedersenCOMM::Commit ......................................................8.81ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.883ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.301µs
+End:     PedersenCOMM::Commit ......................................................8.103ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.944ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.900µs
+End:     PedersenCOMM::Commit ......................................................8.160ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.897ms
+··Start:   Randomize
+··End:     Randomize ...............................................................64.900µs
+End:     PedersenCOMM::Commit ......................................................8.115ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................6.586ms
+··Start:   Randomize
+··End:     Randomize ...............................................................65.100µs
+End:     PedersenCOMM::Commit ......................................................7.810ms
+Start:   PedersenCOMM::Commit
+··Start:   PedersenCRH::Eval
+··End:     PedersenCRH::Eval .......................................................2.920ms
+··Start:   Randomize
+··End:     Randomize ...............................................................60.700µs
+End:     PedersenCOMM::Commit ......................................................4.142ms
+commit time 1.191650557s
+Start:   Groth16::Generator
+··Start:   Constraint synthesis
+Number of constraints for x commitment 125682
+Number of constraints for z commitment 39946
+Number of constraints for conv1 layer commitment 106866 accumulated constraints 272494
+Number of constraints for conv2 layer commitment 2069522 accumulated constraints 2342016
+Number of constraints for conv3 layer commitment 10592644 accumulated constraints 12934660
+Number of constraints for fc1 layer commitment 5296322 accumulated constraints 18230982
+Number of constraints for fc2 layer commitment 75506 accumulated constraints 18306488
+Number of constraints for Conv1 49448448 accumulated constraints 67754936
+Number of constraints for Relu1 87673 accumulated constraints 67842609
+Number of constraints for AvgPool1 11891712 accumulated constraints 79734321
+Number of constraints for Conv2 17254400 accumulated constraints 96988721
+Number of constraints for Relu2 22316 accumulated constraints 97011037
+Number of constraints for AvgPool2 3033600 accumulated constraints 100044637
+Number of constraints for Conv3 2990080 accumulated constraints 103034717
+Number of constraints for Relu3 3550 accumulated constraints 103038267
+Number of constraints FC1 373760 accumulated constraints 103412027
+Number of constraints for Relu4 441 accumulated constraints 103412468
+Number of constraints for FC2 20240 accumulated constraints 103432708
+··End:     Constraint synthesis ....................................................415.787s
+start inline lcs
+··Start:   Inlining LCs
+lc_map len 337185143
+ num lcs: 29006721   num_concrete_var: 385888627
+remove 6.516990537s extend 13.238462412s  compactify 40.150745464s   insert 77.446187773s lc_mul_coeff_time 61.709643235s
+
+··End:     Inlining LCs ............................................................370.888s
+finish inline lcs
+··Start:   Constructing evaluation domain
+··End:     Constructing evaluation domain ..........................................29.901µs
+··Start:   R1CS to QAP Instance Map with Evaluation
+····Start:   Evaluate Lagrange coefficients
+····End:     Evaluate Lagrange coefficients ........................................33.311s
+allocate a,b and c
+··End:     R1CS to QAP Instance Map with Evaluation ................................172.33s
+··Start:   Compute G1 window table
+··End:     Compute G1 window table .................................................21.206s
+··Start:   Generate the R1CS proving key
+····Start:   Calculate A
+····End:     Calculate A ...........................................................479.450s
+····Start:   Calculate B G1

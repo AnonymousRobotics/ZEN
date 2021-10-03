@@ -1,0 +1,46 @@
+LeNet optimized small on CIFAR dataset
+finish reading parameters
+lenet vallina forward
+finish forwarding
+commit time 265.260074ms
+start generating random parameters
+Current number of LeNetCircuit Classification model parameters commitment constraints 3123756
+Number of constraints for accuracy result commitment 39694 accumulated constraints 3163450
+Total number of LeNetCircuit Classification constraints 3935774
+start inline lcs
+lc_map len 19355990
+ num lcs: 8089584   num_concrete_var: 18050509
+remove 1.538399294s extend 1.780621814s  compactify 3.20466854s   insert 3.66645247s lc_mul_coeff_time 6.483879895s
+
+finish inline lcs
+allocate a,b and c
+total cs for AccuracyCommitment Circuit: 3969401
+start inline lcs
+lc_map len 24834703
+ num lcs: 16778500   num_concrete_var: 15903003
+remove 2.507779029s extend 1.664654964s  compactify 1.41844563s   insert 4.488187361s lc_mul_coeff_time 2.005781737s
+
+finish inline lcs
+allocate a,b and c
+setup time 466.208351518s
+crs size: 2323839888
+random parameters generated!
+
+Current number of LeNetCircuit Classification model parameters commitment constraints 3123756
+Number of constraints for accuracy result commitment 39694 accumulated constraints 3163450
+Total number of LeNetCircuit Classification constraints 3935774
+lc_map len 19355990
+ num lcs: 8089584   num_concrete_var: 18050509
+remove 1.537551496s extend 1.753168283s  compactify 3.204956298s   insert 3.637372756s lc_mul_coeff_time 6.483714591s
+
+total cs for AccuracyCommitment Circuit: 3969401
+lc_map len 24834703
+ num lcs: 16778500   num_concrete_var: 15903003
+remove 2.5006725s extend 1.514125118s  compactify 1.396238678s   insert 4.334869777s lc_mul_coeff_time 2.004177696s
+
+prove time 413.248045567s
+public_input len : 3128
+gamma_abc_g1 len : 3128
+public_input len : 202
+gamma_abc_g1 len : 202
+verification time 126.040456ms

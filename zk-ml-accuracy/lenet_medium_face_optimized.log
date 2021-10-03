@@ -1,0 +1,47 @@
+LeNet optimized medium on face dataset
+finish reading parameters
+lenet vallina forward
+commit time 3.737983306s
+start generating random parameters
+Current number of LeNetCircuit Classification model parameters commitment constraints 65910144
+Number of constraints for accuracy result commitment 39694 accumulated constraints 65949838
+Number of constraints for CosineSimilarity Circuit 2017, Accumulated constraints 83303738
+Total number of LeNetCircuit Classification constraints 83303739
+start inline lcs
+lc_map len 473809677
+ num lcs: 245178454   num_concrete_var: 407643634
+remove 52.222780107s extend 109.57307655s  compactify 398.797982527s   insert 100.700169192s lc_mul_coeff_time 1100.782658329s
+
+finish inline lcs
+allocate a,b and c
+total cs for AccuracyCommitment Circuit: 3969401
+start inline lcs
+lc_map len 24834703
+ num lcs: 16778500   num_concrete_var: 15903003
+remove 2.581267689s extend 1.244697179s  compactify 1.400046969s   insert 4.314074758s lc_mul_coeff_time 2.009129613s
+
+finish inline lcs
+allocate a,b and c
+setup time 5350.756032111s
+crs size: 27899065680
+random parameters generated!
+
+Current number of LeNetCircuit Classification model parameters commitment constraints 65910144
+Number of constraints for accuracy result commitment 39694 accumulated constraints 65949838
+Number of constraints for CosineSimilarity Circuit 2017, Accumulated constraints 83303738
+Total number of LeNetCircuit Classification constraints 83303739
+lc_map len 473809677
+ num lcs: 245178454   num_concrete_var: 407643634
+remove 52.155073839s extend 110.10085374s  compactify 398.84673467s   insert 100.691437405s lc_mul_coeff_time 1091.236144374s
+
+total cs for AccuracyCommitment Circuit: 3969401
+lc_map len 24834703
+ num lcs: 16778500   num_concrete_var: 15903003
+remove 2.58396003s extend 1.245290501s  compactify 1.400811209s   insert 4.310839977s lc_mul_coeff_time 2.000421726s
+
+prove time 4863.416451236s
+public_input len : 3644
+gamma_abc_g1 len : 3644
+public_input len : 202
+gamma_abc_g1 len : 202
+verification time 471.338334ms

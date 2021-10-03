@@ -1,0 +1,17 @@
+LeNet small baseline on CIFAR dataset
+commit time 25.8842ms
+is setup mode?: false
+Number of constraints for x commitment 125682
+is setup mode?: false
+Number of constraints for z commitment 39946
+Number of constraints for Conv1 49448448 accumulated constraints 49614076
+Number of constraints for Relu1 87806 accumulated constraints 49701882
+Number of constraints for AvgPool1 11891712 accumulated constraints 61593594
+Number of constraints for Conv2 17254400 accumulated constraints 78847994
+Number of constraints for Relu2 22374 accumulated constraints 78870368
+Number of constraints for AvgPool2 3033600 accumulated constraints 81903968
+Number of constraints for Conv3 2990080 accumulated constraints 84894048
+Number of constraints for Relu3 3595 accumulated constraints 84897643
+Number of constraints FC1 373760 accumulated constraints 85271403
+Number of constraints for Relu4 452 accumulated constraints 85271855
+Number of constraints for FC2 20240 accumulated constraints 85292095

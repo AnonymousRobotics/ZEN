@@ -1,0 +1,44 @@
+commit time 366.90306ms
+start generating random parameters
+Number of constraints for l1 layer commitment 4211300 accumulated constraints 4211300
+Number of constraints for l2 layer commitment 58138 accumulated constraints 4269438
+Number of constraints for accuracy result commitment 69416 accumulated constraints 4280716
+Total number of FullCircuit inference constraints 4347280
+start inline lcs
+lc_map len 17873952
+ num lcs: 5497332   num_concrete_var: 18218078
+remove 987.93265ms extend 765.25513ms  compactify 1.892363161s   insert 3.584102951s lc_mul_coeff_time 3.207825574s
+
+finish inline lcs
+allocate a,b and c
+total cs for AccuracyCommitment Circuit: 1127801
+start inline lcs
+lc_map len 6889103
+ num lcs: 4567300   num_concrete_var: 4485403
+remove 670.032335ms extend 342.417635ms  compactify 396.292006ms   insert 1.106359186s lc_mul_coeff_time 570.24318ms
+
+finish inline lcs
+allocate a,b and c
+setup time 291.673795117s
+crs size: 1840128384
+random parameters generated!
+
+Number of constraints for l1 layer commitment 4211300 accumulated constraints 4211300
+Number of constraints for l2 layer commitment 58138 accumulated constraints 4269438
+Number of constraints for accuracy result commitment 69416 accumulated constraints 4280716
+Total number of FullCircuit inference constraints 4347280
+lc_map len 17873952
+ num lcs: 5497332   num_concrete_var: 18218078
+remove 987.161973ms extend 764.992129ms  compactify 1.893892645s   insert 3.58436538s lc_mul_coeff_time 3.212415096s
+
+total cs for AccuracyCommitment Circuit: 1127801
+lc_map len 6889103
+ num lcs: 4567300   num_concrete_var: 4485403
+remove 671.119758ms extend 339.354905ms  compactify 396.485003ms   insert 1.106852352s lc_mul_coeff_time 570.142304ms
+
+prove time 256.022374842s
+public_input len : 1044
+gamma_abc_g1 len : 1044
+public_input len : 202
+gamma_abc_g1 len : 202
+verification time 171.968381ms

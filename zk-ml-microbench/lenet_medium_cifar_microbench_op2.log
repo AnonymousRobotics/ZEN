@@ -1,0 +1,19 @@
+LeNet small optimized level 2  on CIFAR dataset
+lenet vallina forward
+commit time 29.0501ms
+is setup mode?: false
+Number of constraints for x commitment 125682
+lenet vallina forward
+is setup mode?: false
+Number of constraints for z commitment 39946 accumulated constraints 165628
+Number of constraints for Conv1 1906688 accumulated constraints 2072316
+Number of constraints for Relu1 75264 accumulated constraints 2147580
+Number of constraints for AvgPool1 6272 accumulated constraints 2153852
+Number of constraints for Conv2 5126400 accumulated constraints 7280252
+Number of constraints for Relu2 19200 accumulated constraints 7299452
+Number of constraints for AvgPool2 1600 accumulated constraints 7301052
+Number of constraints for Conv3 1049600 accumulated constraints 8350652
+Number of constraints for Relu3 3072 accumulated constraints 8353724
+Number of constraints FC1 131200 accumulated constraints 8484924
+Number of constraints for Relu4 384 accumulated constraints 8485308
+Number of constraints FC2 1290 accumulated constraints 8486598

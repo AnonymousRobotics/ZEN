@@ -1,0 +1,1 @@
+After we upgrade to Arkworks 0.3.0 and newest Poseidon commitment, we can execute `lenet_large_face` with an Azure 875GB memory instance. If you want better performance, please check `zen-accuracy-arkworks` directory.

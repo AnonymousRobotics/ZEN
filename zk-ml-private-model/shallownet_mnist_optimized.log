@@ -1,0 +1,42 @@
+commit time 310.30047ms
+start generating random parameters
+Number of constraints for x commitment 33077
+Number of constraints for z commitment 11531 accumulated constraints 44608
+Number of constraints for l1 layer commitment 4211300 accumulated constraints 4255908
+Number of constraints for l2 layer commitment 58138 accumulated constraints 4314046
+Use 4 vector SIMD in current FC layer
+Number of constraints for FC1 103578 accumulated constraints 4359486
+Number of constraints for ReLU1 384 accumulated constraints 4359870
+Use 4 vector SIMD in current FC layer
+Number of constraints for FC2 1786 accumulated constraints 4361656
+Total number of FullCircuit inference constraints 4361656
+Number of constraints for ArgmaxCircuitU8 Circuit 18950, Accumulated constaints 4380606
+start inline lcs
+lc_map len 18008986
+ num lcs: 5536920   num_concrete_var: 18357460
+remove 979.268517ms extend 766.169108ms  compactify 1.853282296s   insert 3.633678647s lc_mul_coeff_time 2.74554332s
+
+finish inline lcs
+allocate a,b and c
+setup time 302.535661614s
+random parameters generated!
+
+Number of constraints for x commitment 33077
+Number of constraints for z commitment 11531 accumulated constraints 44608
+Number of constraints for l1 layer commitment 4211300 accumulated constraints 4255908
+Number of constraints for l2 layer commitment 58138 accumulated constraints 4314046
+Use 4 vector SIMD in current FC layer
+Number of constraints for FC1 103578 accumulated constraints 4359486
+Number of constraints for ReLU1 384 accumulated constraints 4359870
+Use 4 vector SIMD in current FC layer
+Number of constraints for FC2 1786 accumulated constraints 4361656
+Total number of FullCircuit inference constraints 4361656
+Number of constraints for ArgmaxCircuitU8 Circuit 18950, Accumulated constaints 4380606
+lc_map len 18008986
+ num lcs: 5536920   num_concrete_var: 18357460
+remove 978.890307ms extend 721.485176ms  compactify 1.853402433s   insert 3.492303454s lc_mul_coeff_time 2.742091217s
+
+prove time 227.802445784s
+public_input len : 261
+gamma_abc_g1 len : 261
+verification time 97.140569ms

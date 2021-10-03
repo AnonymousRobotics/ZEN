@@ -1,0 +1,46 @@
+finish reading parameters
+lenet vallina forward
+commit time 1.080622226s
+start generating random parameters
+Current number of LeNetCircuit Classification model parameters commitment constraints 17869746
+Number of constraints for accuracy result commitment 39694 accumulated constraints 17909440
+Number of constraints for CosineSimilarity Circuit 2017, Accumulated constraints 20494768
+Total number of LeNetCircuit Classification constraints 20494769
+start inline lcs
+lc_map len 94938531
+ num lcs: 36284482   num_concrete_var: 91780885
+remove 7.136592288s extend 12.03998134s  compactify 33.495580708s   insert 19.236073556s lc_mul_coeff_time 87.342764477s
+
+finish inline lcs
+allocate a,b and c
+total cs for AccuracyCommitment Circuit: 3969401
+start inline lcs
+lc_map len 24834703
+ num lcs: 16778500   num_concrete_var: 15903003
+remove 2.509549516s extend 1.312469105s  compactify 1.394331741s   insert 4.132338668s lc_mul_coeff_time 2.004764239s
+
+finish inline lcs
+allocate a,b and c
+setup time 1316.511694464s
+crs size: 7794875232
+random parameters generated!
+
+Current number of LeNetCircuit Classification model parameters commitment constraints 17869746
+Number of constraints for accuracy result commitment 39694 accumulated constraints 17909440
+Number of constraints for CosineSimilarity Circuit 2017, Accumulated constraints 20494768
+Total number of LeNetCircuit Classification constraints 20494769
+lc_map len 94938531
+ num lcs: 36284482   num_concrete_var: 91780885
+remove 7.148253929s extend 12.071513914s  compactify 34.176933967s   insert 19.304147891s lc_mul_coeff_time 87.653030414s
+
+total cs for AccuracyCommitment Circuit: 3969401
+lc_map len 24834703
+ num lcs: 16778500   num_concrete_var: 15903003
+remove 2.523797616s extend 1.293448839s  compactify 1.456468835s   insert 4.141175651s lc_mul_coeff_time 2.139347707s
+
+prove time 1158.213319644s
+public_input len : 2902
+gamma_abc_g1 len : 2902
+public_input len : 202
+gamma_abc_g1 len : 202
+verification time 205.601291ms

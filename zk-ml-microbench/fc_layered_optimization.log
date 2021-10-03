@@ -1,0 +1,24 @@
+start benchmarking
+
+
+
+fc_256_naive 215200
+fc_256_op1 88900
+fc_256_op2 25700
+Use 4 vector SIMD in current FC layer
+fc_256_op3 22300
+fc_1024_naive 292000
+fc_1024_op1 165700
+fc_1024_op2 102500
+Use 4 vector SIMD in current FC layer
+fc_1024_op3 41500
+fc_4096_naive 599200
+fc_4096_op1 472900
+fc_4096_op2 409700
+Use 4 vector SIMD in current FC layer
+fc_4096_op3 118300
+fc_16384_naive 1828000
+fc_16384_op1 1701700
+fc_16384_op2 1638500
+Use 3 vector SIMD in current FC layer
+fc_16384_op3 578012

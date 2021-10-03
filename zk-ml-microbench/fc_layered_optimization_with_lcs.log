@@ -1,0 +1,102 @@
+start benchmarking
+
+
+
+fc_256_naive 215200
+lc_map len 671600
+ num lcs: 26300   num_concrete_var: 783400
+remove 5.91719ms extend 22.02136ms  compactify 93.013636ms   insert 131.978883ms lc_mul_coeff_time 138.246663ms
+
+fc_256_op1 88900
+lc_map len 425500
+ num lcs: 158800   num_concrete_var: 409300
+remove 26.788355ms extend 47.606222ms  compactify 158.375245ms   insert 68.640794ms lc_mul_coeff_time 402.490388ms
+
+fc_256_op2 25700
+lc_map len 231600
+ num lcs: 154500   num_concrete_var: 180100
+remove 25.073563ms extend 37.221436ms  compactify 149.61313ms   insert 33.919443ms lc_mul_coeff_time 402.013131ms
+
+Use 4 vector SIMD in current FC layer
+fc_256_op3 22300
+lc_map len 124236
+ num lcs: 69880   num_concrete_var: 98799
+remove 9.177188ms extend 14.292973ms  compactify 44.392822ms   insert 18.75028ms lc_mul_coeff_time 106.443108ms
+
+
+
+
+
+
+fc_1024_naive 292000
+lc_map len 978800
+ num lcs: 103100   num_concrete_var: 1090600
+remove 24.276073ms extend 152.45002ms  compactify 904.515143ms   insert 180.991085ms lc_mul_coeff_time 2.007968642s
+
+fc_1024_op1 165700
+lc_map len 1116700
+ num lcs: 619600   num_concrete_var: 946900
+remove 116.619586ms extend 437.415426ms  compactify 1.953784595s   insert 184.354703ms lc_mul_coeff_time 5.974680049s
+
+fc_1024_op2 102500
+lc_map len 922800
+ num lcs: 615300   num_concrete_var: 717700
+remove 114.086922ms extend 434.838281ms  compactify 1.946408133s   insert 149.085075ms lc_mul_coeff_time 5.984055187s
+
+Use 4 vector SIMD in current FC layer
+fc_1024_op3 41500
+lc_map len 301344
+ num lcs: 227020   num_concrete_var: 197671
+remove 35.948565ms extend 127.330469ms  compactify 545.228601ms   insert 50.72175ms lc_mul_coeff_time 1.425510653s
+
+
+
+
+
+fc_4096_naive 599200
+lc_map len 2207600
+ num lcs: 410300   num_concrete_var: 2319400
+remove 106.635623ms extend 1.60286684s  compactify 13.140045504s   insert 418.215228ms lc_mul_coeff_time 31.222195293s
+
+fc_4096_op1 472900
+lc_map len 3881500
+ num lcs: 2462800   num_concrete_var: 3097300
+remove 515.496531ms extend 5.817387412s  compactify 29.137167655s   insert 709.801702ms lc_mul_coeff_time 93.762514058s
+
+fc_4096_op2 409700
+lc_map len 3687600
+ num lcs: 2458500   num_concrete_var: 2868100
+remove 508.766484ms extend 5.755052843s  compactify 29.126809115s   insert 669.446348ms lc_mul_coeff_time 93.761083881s
+
+Use 4 vector SIMD in current FC layer
+fc_4096_op3 118300
+lc_map len 1010976
+
+
+
+
+
+
+
+fc_16384_naive 1828000
+lc_map len 7122800
+ num lcs: 1639100   num_concrete_var: 7234600
+remove 815.080645ms extend 35.74399657s  compactify 201.254425404s   insert 1.757960634s lc_mul_coeff_time 484.093583289s
+
+fc_16384_op1 1701700
+lc_map len 14940700
+ num lcs: 9835600   num_concrete_var: 11698900
+remove 2.985495831s extend 127.364171618s  compactify 462.683758486s   insert 3.637382885s lc_mul_coeff_time 1489.614213452s
+
+fc_16384_op2 1638500
+lc_map len 14746800
+ num lcs: 9831300   num_concrete_var: 11469700
+remove 2.954900865s extend 126.734872767s  compactify 462.687081281s   insert 3.596085785s lc_mul_coeff_time 1489.670411107s
+
+Use 3 vector SIMD in current FC layer
+fc_16384_op3 578012
+lc_map len 5163628
+ num lcs: 4494552   num_concrete_var: 2953271
+remove 925.333938ms extend 44.423817618s  compactify 156.903574331s   insert 1.174036356s lc_mul_coeff_time 506.540480672s
+
+

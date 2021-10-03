@@ -1,0 +1,109 @@
+start benchmarking
+
+
+
+conv_size1_naive 8851968
+lc_map len 26689536
+ num lcs: 147456   num_concrete_var: 31841280
+remove 39.854675ms extend 188.271464ms  compactify 1.330229952s   insert 6.519892158s lc_mul_coeff_time 139.270593ms
+
+
+
+conv_size1_op1 3032064
+lc_map len 10027008
+ num lcs: 930816   num_concrete_var: 11409408
+remove 201.437144ms extend 192.30957ms  compactify 625.150938ms   insert 2.050839594s lc_mul_coeff_time 354.034347ms
+
+
+
+conv_size1_op2 119808
+lc_map len 1092096
+ num lcs: 732672   num_concrete_var: 847872
+remove 136.290602ms extend 152.331389ms  compactify 181.62678ms   insert 187.999167ms lc_mul_coeff_time 316.143557ms
+
+kernel size 8 1 5 5
+we don't use old SIMD
+
+
+conv_size1_op3 119808
+lc_map len 1092096
+ num lcs: 732672   num_concrete_var: 847872
+remove 137.085517ms extend 153.083278ms  compactify 196.465763ms   insert 187.971355ms lc_mul_coeff_time 318.248571ms
+
+
+
+conv_size2_naive 18395136
+lc_map len 56143872
+ num lcs: 986112   num_concrete_var: 66447360
+remove 271.753702ms extend 882.898319ms  compactify 3.916768125s   insert 13.91928367s lc_mul_coeff_time 2.339197498s
+
+
+
+conv_size2_op1 6755328
+lc_map len 26274816
+ num lcs: 6008832   num_concrete_var: 27657216
+remove 1.295245514s extend 1.439040486s  compactify 3.966095726s   insert 5.504298509s lc_mul_coeff_time 6.343590461s
+
+
+
+conv_size2_op2 930816
+lc_map len 8404992
+ num lcs: 5612544   num_concrete_var: 6534144
+remove 1.110292574s extend 1.255611347s  compactify 3.064203283s   insert 1.575875315s lc_mul_coeff_time 6.255664913s
+
+kernel size 16 4 5 5
+we don't use old SIMD
+
+
+conv_size2_op3 930816
+lc_map len 8404992
+ num lcs: 5612544   num_concrete_var: 6534144
+remove 1.110957109s extend 1.264111582s  compactify 3.371947693s   insert 1.576992604s lc_mul_coeff_time 6.36246464s
+
+
+
+conv_size3_naive 42319872
+lc_map len 134406144
+ num lcs: 7501824   num_concrete_var: 155013120
+remove 2.116736261s extend 6.812281203s  compactify 33.739549708s   insert 32.801545732s lc_mul_coeff_time 56.84114146s
+
+
+
+conv_size3_op1 19040256
+lc_map len 102316032
+ num lcs: 45195264   num_concrete_var: 94021632
+remove 10.460098875s extend 17.500520567s  compactify 66.117770994s   insert 21.78064996s lc_mul_coeff_time 166.870989374s
+
+
+
+conv_size3_op2 7391232
+lc_map len 66576384
+ num lcs: 44402688   num_concrete_var: 51775488
+remove 9.888870015s extend 13.598319709s  compactify 64.465284371s   insert 13.552434092s lc_mul_coeff_time 166.970250205s
+
+kernel size 32 16 5 5
+OLD SIMD conv among multiple kernel positions on image
+
+
+conv_size3_op3 4773888
+lc_map len 39647232
+ num lcs: 27168768   num_concrete_var: 28712448
+remove 5.645196546s extend 5.785251367s  compactify 21.068522027s   insert 8.025890656s lc_mul_coeff_time 52.946416569s
+
+
+
+conv_size4_naive 99385344
+lc_map len 327794688
+
+
+conv_size4_op1 52826112
+lc_map len 337342464
+ num lcs: 178864128   num_concrete_var: 291262464
+remove 46.054068705s extend 112.386866362s  compactify 469.273181493s   insert 65.071313237s lc_mul_coeff_time 1288.009965458s
+
+
+conv_size4_op2 29528064
+lc_map len 265863168
+
+conv_size4_op3 13234176
+lc_map len 134590464
